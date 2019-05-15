@@ -339,7 +339,7 @@ ul {
 /* line 26, E:/161 Real estate/161_Real_state_html/sass/_menu.scss */
 .main_menu .navbar .main-menu-item .navbar-nav a {
   padding: 0px 22px;
-  font-size: 14px;
+  font-size: 20px;
   color: rgba(0, 69, 154, 1);
   text-transform: capitalize;
 }
@@ -422,13 +422,57 @@ ul {
   transform: scale(1);
 }
 
+
 .design_cir_1 {
+  position: absolute;
   width: 10px;
   height: 10px;
   background-color: rgba(0, 69, 154, 1);
   border-radius: 50%;
   margin-left: 10px;
+  left: 28%;
 }
+
+.design_cir_2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 69, 154, 1);
+  border-radius: 50%;
+  margin-left: 10px;
+  left: 30%;
+}
+
+.design_cir_3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 69, 154, 1);
+  border-radius: 50%;
+  margin-left: 10px;
+  left: 32%;
+}
+@media (max-width: 576px) {
+  .design_cir_1, .design_cir_2, .design_cir_3 {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .design_cir_1, .design_cir_2, .design_cir_3 {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .design_cir_1, .design_cir_2, .design_cir_3 {
+    width: 0;
+    height: 0;
+  }
+}
+
 
 @media (max-width: 576px) {
   /* line 93, E:/161 Real estate/161_Real_state_html/sass/_menu.scss */
