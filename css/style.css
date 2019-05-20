@@ -1006,6 +1006,98 @@ p {
 }
 
 /**************** hero part css end ****************/
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** Our products *********************/
+
+.main_heading_products {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 70px;
+  margin: 10px 0 0 0;
+}
+
+.products_agro {
+  display: block;
+  width: 100%;
+  height: 400px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  line-height: 400px; 
+  background: url(../img/bean-2.jpg);
+  background-size: cover;
+  /* transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear; */
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;  
+  opacity: 0;
+}
+.products_agro:hover {
+  opacity: 1;
+}
+
+.products_construction {
+  display: block;
+  width: 100%;
+  height: 400px;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  line-height: 400px; 
+  background: url(../img/slider2-2.jpg);
+  background-size: cover;
+  /* transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear; */
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;  
+  opacity: 0;
+}
+.products_construction:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************Team css start***************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
 .team_part {
