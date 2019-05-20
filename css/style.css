@@ -183,6 +183,15 @@ img {
   max-width: 100%;
 }
 
+.agro-products, .construction-materials {
+  position: absolute;
+  z-index: -10000000 !important;
+}
+
+.agro-products:hover, .construction-materials:hover {
+  box-shadow: 0 0 300px rgba(0, 0, 0, 0.8);
+}
+
 /* line 118, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
 a:focus, .button:focus, button:focus, .btn:focus {
   text-decoration: none;
@@ -363,25 +372,25 @@ ul {
 }
 @media (max-width: 576px) {
   .for_space {
-    display: none;
+    width: 20px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .for_space {
-    display: none;
+    width: 30px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .for_space {
-    display: none;
+    width: 10px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .for_space {
-    display: none;
+    width: 20px;
   }
 }
 
@@ -528,7 +537,7 @@ ul {
   /* line 106, E:/161 Real estate/161_Real_state_html/sass/_menu.scss */
   .dropdown-menu {
     border: 0px solid rgba(0, 0, 0, 0.15) !important;
-    background-color: #bd9c50;
+    background-color: rgb(138, 191, 255);
   }
   /* line 111, E:/161 Real estate/161_Real_state_html/sass/_menu.scss */
   .dropdown .dropdown-menu {
@@ -641,9 +650,9 @@ ul {
   content: "";
   width: 83%;
   height: 100%; 
-  background-image: url(../img/container-ship-3_3.png); 
+  /* background-image: url(../img/container-ship-3_3.png); 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 /* .ship_background {
@@ -2908,7 +2917,7 @@ p {
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
 .footer_part {
   background-color: #1b212e;
-  padding: 130px 0px 25px;
+  padding: 70px 0px 25px;
 }
 
 @media (max-width: 576px) {
