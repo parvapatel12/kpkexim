@@ -183,14 +183,14 @@ img {
   max-width: 100%;
 }
 
-.agro-products, .construction-materials {
+/* .agro-products, .construction-materials {
   position: absolute;
   z-index: -10000000 !important;
 }
 
 .agro-products:hover, .construction-materials:hover {
   box-shadow: 0 0 300px rgba(0, 0, 0, 0.8);
-}
+} */
 
 /* line 118, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
 a:focus, .button:focus, button:focus, .btn:focus {
@@ -650,9 +650,9 @@ ul {
   content: "";
   width: 83%;
   height: 100%; 
-  /* background-image: url(../img/container-ship-3_3.png); 
+  background-image: url(../img/container-ship-3_3.png); 
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 /* .ship_background {
